@@ -72,27 +72,4 @@ Os códigos de status HTTP indicam o resultado da requisição.
 - **503 Service Unavailable** → Serviço temporariamente indisponível.
 - **504 Gateway Timeout** → Tempo de resposta excedido.
 
----
 
-## 📌 Resumo Rápido
-
-| Método | Ação |
-|--------|------|
-| GET    | Buscar dados |
-| POST   | Criar dados |
-| PUT    | Atualizar totalmente |
-| PATCH  | Atualizar parcialmente |
-| DELETE | Remover dados |
-
----
-
-## 🧠 Dica
-
-Sempre verifique:
-- O método correto para a operação.
-- O código de status retornado.
-- A mensagem de erro no corpo da resposta.
-
----
-
-📖 Referência oficial: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods
