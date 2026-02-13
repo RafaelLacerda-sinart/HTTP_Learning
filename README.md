@@ -217,25 +217,12 @@ Ex: PUT, DELETE
 
 ---
 
-## 11. Conexões e Persistência
+## 11. Conexões, Persistência e Versionamento
 
 - HTTP/1.0 → conexão fechada após cada requisição
 - HTTP/1.1 → conexões persistentes (keep-alive)
 - HTTP/2 → multiplexação (várias requisições na mesma conexão)
 - HTTP/3 → baseado em QUIC (UDP)
-
----
-
-## 12. Versionamento
-
-Principais versões:
-
-- HTTP/1.0
-- HTTP/1.1
-- HTTP/2
-- HTTP/3
-
-Cada versão trouxe melhorias de performance e eficiência.
 
 ---
 
