@@ -241,7 +241,7 @@ Os conceitos mais importantes do HTTP são:
 - Conexões persistentes
 - Versionamento
 
-Esses fundamentos são essenciais para entender APIs REST, aplicações web e arquiteturas modernas.
+---
 
 
 
