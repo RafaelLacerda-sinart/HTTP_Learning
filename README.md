@@ -4,82 +4,6 @@ Este documento explica de forma simples os principais métodos HTTP utilizados e
 
 ---
 
-## Métodos HTTP
-
-Os métodos HTTP são utilizados para indicar a ação que deve ser realizada sobre um recurso em um servidor.
-
-### 🔹 GET
-- **Função:** Buscar dados do servidor.
-- **Uso comum:** Listar ou obter informações.
-- **Exemplo:** Buscar lista de usuários.
-- **Observação:** Não deve alterar dados.
-
----
-
-### 🔹 POST
-- **Função:** Enviar dados para o servidor.
-- **Uso comum:** Criar um novo recurso.
-- **Exemplo:** Criar um novo usuário.
-- **Observação:** Pode alterar o estado do servidor.
-
----
-
-### 🔹 PUT
-- **Função:** Atualizar um recurso existente.
-- **Uso comum:** Atualizar todos os dados de um registro.
-- **Exemplo:** Atualizar informações completas de um usuário.
-- **Observação:** Normalmente substitui o recurso inteiro.
-
----
-
-### 🔹 PATCH
-- **Função:** Atualizar parcialmente um recurso.
-- **Uso comum:** Alterar apenas alguns campos.
-- **Exemplo:** Atualizar apenas o e-mail do usuário.
-
----
-
-### 🔹 DELETE
-- **Função:** Remover um recurso.
-- **Uso comum:** Excluir um registro do sistema.
-- **Exemplo:** Deletar um usuário.
-
----
-
-## ⚠️ Erros HTTP Mais Comuns
-
-Os códigos de status HTTP indicam o resultado da requisição.
-
-### ✅ 2xx — Sucesso
-- **200 OK** → Requisição bem-sucedida.
-- **201 Created** → Recurso criado com sucesso.
-- **204 No Content** → Sucesso sem conteúdo de resposta.
-
----
-
-### ❌ 4xx — Erro do Cliente
-- **400 Bad Request** → Requisição inválida.
-- **401 Unauthorized** → Autenticação necessária ou inválida.
-- **403 Forbidden** → Acesso proibido.
-- **404 Not Found** → Recurso não encontrado.
-- **405 Method Not Allowed** → Método não permitido para o endpoint.
-
----
-
-### 🚨 5xx — Erro do Servidor
-- **500 Internal Server Error** → Erro interno no servidor.
-- **502 Bad Gateway** → Resposta inválida de outro servidor.
-- **503 Service Unavailable** → Serviço temporariamente indisponível.
-- **504 Gateway Timeout** → Tempo de resposta excedido.
-
--------------------------------
-
-# Outros Conceitos Fundamentais de HTTP
-
-Este documento resume **os conceitos mais importantes do HTTP**, além de métodos (GET, POST, PUT, etc.) e códigos de status (200, 404, 500...).
-
----
-
 ## 1. Modelo Cliente-Servidor
 
 O HTTP segue o modelo **cliente-servidor**:
@@ -226,23 +150,72 @@ Ex: PUT, DELETE
 
 ---
 
-# Resumo Final
+## Métodos HTTP
 
-Os conceitos mais importantes do HTTP são:
+Os métodos HTTP são utilizados para indicar a ação que deve ser realizada sobre um recurso em um servidor.
 
-- Modelo cliente-servidor
-- Stateless
-- Estrutura de request/response
-- Headers
-- HTTPS e segurança
-- Cache
-- Content negotiation
-- Idempotência
-- Conexões persistentes
-- Versionamento
+### 🔹 GET
+- **Função:** Buscar dados do servidor.
+- **Uso comum:** Listar ou obter informações.
+- **Exemplo:** Buscar lista de usuários.
+- **Observação:** Não deve alterar dados.
 
 ---
 
+### 🔹 POST
+- **Função:** Enviar dados para o servidor.
+- **Uso comum:** Criar um novo recurso.
+- **Exemplo:** Criar um novo usuário.
+- **Observação:** Pode alterar o estado do servidor.
 
+---
 
+### 🔹 PUT
+- **Função:** Atualizar um recurso existente.
+- **Uso comum:** Atualizar todos os dados de um registro.
+- **Exemplo:** Atualizar informações completas de um usuário.
+- **Observação:** Normalmente substitui o recurso inteiro.
 
+---
+
+### 🔹 PATCH
+- **Função:** Atualizar parcialmente um recurso.
+- **Uso comum:** Alterar apenas alguns campos.
+- **Exemplo:** Atualizar apenas o e-mail do usuário.
+
+---
+
+### 🔹 DELETE
+- **Função:** Remover um recurso.
+- **Uso comum:** Excluir um registro do sistema.
+- **Exemplo:** Deletar um usuário.
+
+---
+
+## ⚠️ Erros HTTP Mais Comuns
+
+Os códigos de status HTTP indicam o resultado da requisição.
+
+### ✅ 2xx — Sucesso
+- **200 OK** → Requisição bem-sucedida.
+- **201 Created** → Recurso criado com sucesso.
+- **204 No Content** → Sucesso sem conteúdo de resposta.
+
+---
+
+### ❌ 4xx — Erro do Cliente
+- **400 Bad Request** → Requisição inválida.
+- **401 Unauthorized** → Autenticação necessária ou inválida.
+- **403 Forbidden** → Acesso proibido.
+- **404 Not Found** → Recurso não encontrado.
+- **405 Method Not Allowed** → Método não permitido para o endpoint.
+
+---
+
+### 🚨 5xx — Erro do Servidor
+- **500 Internal Server Error** → Erro interno no servidor.
+- **502 Bad Gateway** → Resposta inválida de outro servidor.
+- **503 Service Unavailable** → Serviço temporariamente indisponível.
+- **504 Gateway Timeout** → Tempo de resposta excedido.
+
+---
